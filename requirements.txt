@@ -1,0 +1,12 @@
+# Core (same versions as the repo root requirements.txt)
+torch>=2.2.2
+tiktoken>=0.5.1
+
+# Only needed for data_ingestion.py, to read your training materials
+openpyxl>=3.1.0     # .xlsx / .xls
+pypdf>=4.0.0         # .pdf
+python-docx>=1.1.0   # .docx
+
+# Only needed for run_finetune_gpt2_medium.py / run_generate_gpt2_medium.py,
+# to fine-tune the real pretrained GPT-2-medium checkpoint from Hugging Face
+transformers>=4.40.0
