@@ -1,7 +1,6 @@
 # gpt-2-model
 
-A self-contained, heavily-annotated GPT-2 implementation, built by reusing
-the tested code from `ch02`-`ch05` of this repository. The goal of this
+A self-contained, heavily-annotated GPT-2 implementation, built of this repository. The goal of this
 folder is to let you read the code top-to-bottom and understand exactly how
 a GPT model works end to end - and then train it on your own documents
 (Excel, PDF, Word, or plain text).
